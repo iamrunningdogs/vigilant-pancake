@@ -29,3 +29,7 @@
 df\[,c("col2")\]
 
 也可以使用colnames(df)获取列名，使用colnames(df) <- c("...",)命名一列。
+
+library(readr)后才能read_csv、read_tsv，还可以使用as.data.frame规整数据
+
+library(readxl)后使用read_excel。
